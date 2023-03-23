@@ -1,0 +1,11 @@
+<Ui>
+	<Script file="inspector.lua"/>
+	<Include file="constants.lua"/>
+	<Include file="ui\ui.lua"/>
+	<Include file="ui\itemslotbutton.lua"/>
+	<Include file="ui\modelframe.lua"/>
+	<Include file="ui\statsframe.lua"/>
+	<Include file="stats.lua"/>
+	<Include file="scanner.lua"/>
+	<Include file="locale_enUS.lua"/>
+</Ui>

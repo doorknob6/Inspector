@@ -1,0 +1,3 @@
+<Bindings>
+    <Binding name="INSPECT_TARGET_BINDING" header="INSPECTOR_HEADER">InspectUnit("target");</Binding>
+</Bindings>
