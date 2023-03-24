@@ -2,8 +2,8 @@
 --                                                Misc                                                --
 --------------------------------------------------------------------------------------------------------
 
-INSPECTOR_HEADER = "Inspector"
-INSPECT_TARGET_BINDING = "Inspect target"
+BINDING_HEADER_INSPECTOR_HEADER = "Inspector"
+BINDING_NAME_INSPECT_TARGET_BINDING = "Inspect target"
 
 Inspector.StatsButtonText = "Stats";
 Inspector.Classification = {

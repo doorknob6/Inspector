@@ -1,5 +1,4 @@
 <Ui>
-	<Script file="inspector.lua"/>
 	<Include file="constants.lua"/>
 	<Include file="ui\ui.lua"/>
 	<Include file="ui\itemslotbutton.lua"/>

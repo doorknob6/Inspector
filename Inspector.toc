@@ -4,4 +4,5 @@
 ## Author: Doorknob
 ## Notes: Advanced Inspection Mod of Other Players. Inspired by Examiner.
 ## SavedVariables: Inspector_Config, Inspector_Cache, Inspector_Debug
+inspector.lua
 inspector.xml
