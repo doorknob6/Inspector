@@ -164,17 +164,20 @@ end
 
 -- check if the `Inspect` skin is loaded in pfUI
 function Inspector:Check_pfUI()
-    return (pfUI and not (pfUI_config["disabled"] and pfUI_config["disabled"]["skin_Inspect"] == "1")); ---@diagnostic disable-line: undefined-global
+    return (pfUI and
+        pfUI.skin and
+        pfUI.skin["Inspect"] and
+        not (pfUI_config["disabled"] and pfUI_config["disabled"]["skin_Inspect"] == "1"));
 end
 
 -- converts some UI items to match pfUI visual style
 function Inspector:Compat_pfUI()
     if (not self:Check_pfUI()) then return; end
     if (self.ui and self.ui.statsButton) then
-        pfUI.api.SkinButton(self.ui.statsButton); ---@diagnostic disable-line: undefined-global
+        pfUI.api.SkinButton(self.ui.statsButton);
     end
     if (self.ui and self.ui.statsFrame and self.ui.statsFrame.scrollParent) then
-        pfUI.api.SkinScrollbar(getglobal(self.ui.statsFrame.scrollParent:GetName() .. "ScrollBar")); ---@diagnostic disable-line: undefined-global
+        pfUI.api.SkinScrollbar(getglobal(self.ui.statsFrame.scrollParent:GetName() .. "ScrollBar"));
     end
 end
 
