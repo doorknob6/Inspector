@@ -178,6 +178,7 @@ Inspector.scanner.Patterns = {
 	{ p = "^Spell Damage %+(%d+)", s = { "SPELLDMG", "HEAL" } }, -- enchanting recipes, Power of the Scourge
 	{ p = "%+(%d+) Spell Damage and Healing", s = { "SPELLDMG", "HEAL" } }, -- ZG shoulder enchant
 	{ p = "Healing and Spell Damage %+(%d+)", s = { "SPELLDMG", "HEAL" } }, -- Arcanum of Focus
+	{ p = "^%+(%d+) Damage and Healing Spells", s = { "SPELLDMG", "HEAL" } }, -- Enchanted Armor Kit
 
 	{ p = "Arcane Damage %+(%d+)", s = "ARCANEDMG" },
 	{ p = "Fire Damage %+(%d+)", s = "FIREDMG" },
